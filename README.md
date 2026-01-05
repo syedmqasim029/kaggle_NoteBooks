@@ -1,3 +1,3 @@
 # kaggle_NoteBooks
-- [X] handwritten-digit-classification-using-ann-mnist
-- [X] Complete_Numpy 
+- [X] [Handwritten-digit-classification-using-ann-Keras](https://github.com/syedmqasim029/kaggle_NoteBooks/tree/main/handwritten-digit-classification-using-ann-mnist)
+- [X] [Complete_Numpy](https://github.com/syedmqasim029/kaggle_NoteBooks/tree/main/numpy)
