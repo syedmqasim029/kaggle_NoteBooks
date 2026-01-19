@@ -1,0 +1,35 @@
+Match_ID,Match_No,Date,Team_1,Team_2,Venue,Toss_Winner,Toss_Decision,Winning_Team,Won_By,Margin,Target,POTM,Notes
+PSL2025_01,1,11-Apr-25,Lahore Qalandars,Islamabad United,Rawalpindi,Islamabad United,Field,Islamabad United,Wickets,8,140,Jason Holder,Muhammad Naeem (LQ) made T20 debut
+PSL2025_02,2,12-Apr-25,Quetta Gladiators,Peshawar Zalmi,Rawalpindi,Peshawar Zalmi,Field,Quetta Gladiators,Runs,80,,Abrar Ahmed,
+PSL2025_03,3,12-Apr-25,Multan Sultans,Karachi Kings,Karachi,Karachi Kings,Field,Karachi Kings,Wickets,4,235,James Vince,Fawad Ali (KK) made T20 debut
+PSL2025_04,4,13-Apr-25,Lahore Qalandars,Quetta Gladiators,Rawalpindi,Quetta Gladiators,Field,Lahore Qalandars,Runs,79,,Fakhar Zaman,
+PSL2025_05,5,14-Apr-25,Islamabad United,Peshawar Zalmi,Rawalpindi,Islamabad United,Bat,Islamabad United,Runs,102,,Sahibzada Farhan,
+PSL2025_06,6,15-Apr-25,Lahore Qalandars,Karachi Kings,Karachi,Lahore Qalandars,Bat,Lahore Qalandars,Runs,65,,Fakhar Zaman,
+PSL2025_07,7,16-Apr-25,Islamabad United,Multan Sultans,Rawalpindi,Multan Sultans,Field,Islamabad United,Runs,47,,Jason Holder,
+PSL2025_08,8,18-Apr-25,Karachi Kings,Quetta Gladiators,Karachi,Karachi Kings,Bat,Karachi Kings,Runs,56,,James Vince,
+PSL2025_09,9,19-Apr-25,Peshawar Zalmi,Multan Sultans,Rawalpindi,Peshawar Zalmi,Bat,Peshawar Zalmi,Runs,120,,Abdul Samad,Largest victory in PSL history (runs)
+PSL2025_10,10,20-Apr-25,Karachi Kings,Islamabad United,Karachi,Islamabad United,Field,Islamabad United,Wickets,6,129,Shadab Khan,
+PSL2025_11,11,21-Apr-25,Peshawar Zalmi,Karachi Kings,Karachi,Karachi Kings,Field,Karachi Kings,Wickets,2,148,Khushdil Shah,
+PSL2025_12,12,22-Apr-25,Multan Sultans,Lahore Qalandars,Multan,Multan Sultans,Bat,Multan Sultans,Runs,33,,Yasir Khan,
+PSL2025_13,13,23-Apr-25,Multan Sultans,Islamabad United,Multan,Multan Sultans,Bat,Islamabad United,Wickets,7,169,Andries Gous,
+PSL2025_14,14,24-Apr-25,Lahore Qalandars,Peshawar Zalmi,Lahore,Peshawar Zalmi,Field,Peshawar Zalmi,Wickets,7,130,Alzarri Joseph,
+PSL2025_15,15,25-Apr-25,Quetta Gladiators,Karachi Kings,Lahore,Karachi Kings,Field,Quetta Gladiators,Runs,5,,Abrar Ahmed,
+PSL2025_16,16,26-Apr-25,Multan Sultans,Lahore Qalandars,Lahore,Lahore Qalandars,Field,Lahore Qalandars,Wickets,5,186,Daryl Mitchell,
+PSL2025_17,17,27-Apr-25,Quetta Gladiators,Peshawar Zalmi,Lahore,Peshawar Zalmi,Field,Quetta Gladiators,Runs,64,,Faheem Ashraf,
+PSL2025_18,18,29-Apr-25,Multan Sultans,Quetta Gladiators,Lahore,Quetta Gladiators,Field,Quetta Gladiators,Wickets,10,90,Khurram Shahzad,Mohammad Rizwan first to carry bat in PSL
+PSL2025_19,19,30-Apr-25,Lahore Qalandars,Islamabad United,Lahore,Islamabad United,Field,Lahore Qalandars,Runs,88,,Sikandar Raza,
+PSL2025_20,20,01-May-25,Karachi Kings,Multan Sultans,Lahore,Karachi Kings,Bat,Karachi Kings,Runs,87,,James Vince,Match shifted from Multan to Lahore
+PSL2025_21,21,01-May-25,Lahore Qalandars,Quetta Gladiators,Lahore,Quetta Gladiators,Field,No Result,,,,,Match abandoned due to rain
+PSL2025_22,22,02-May-25,Islamabad United,Peshawar Zalmi,Lahore,Islamabad United,Bat,Peshawar Zalmi,Wickets,6,144,Maaz Sadaqat,
+PSL2025_23,23,03-May-25,Islamabad United,Quetta Gladiators,Lahore,Quetta Gladiators,Field,Quetta Gladiators,Wickets,2,158,Hassan Nawaz,Quetta qualified for playoffs
+PSL2025_24,24,04-May-25,Lahore Qalandars,Karachi Kings,Lahore,Karachi Kings,Field,Karachi Kings,Wickets,4,169,Irfan Khan Niazi,Match reduced to 15 overs per side (DLS)
+PSL2025_25,25,05-May-25,Multan Sultans,Peshawar Zalmi,Multan,Multan Sultans,Bat,Peshawar Zalmi,Wickets,7,109,Ahmed Daniyal,
+PSL2025_26,26,07-May-25,Quetta Gladiators,Islamabad United,Rawalpindi,Islamabad United,Field,Quetta Gladiators,Runs,109,,Rilee Rossouw,Highest PSL total (263/3); First pair with centuries in same innings
+PSL2025_27,27,17-May-25,Karachi Kings,Peshawar Zalmi,Rawalpindi,Peshawar Zalmi,Field,Karachi Kings,Runs,23,,David Warner,Karachi & Islamabad qualified for playoffs
+PSL2025_28,28,18-May-25,Multan Sultans,Quetta Gladiators,Rawalpindi,Multan Sultans,Bat,Quetta Gladiators,Wickets,2,190,Hassan Nawaz,Match shifted from Multan to Rawalpindi
+PSL2025_29,29,18-May-25,Lahore Qalandars,Peshawar Zalmi,Rawalpindi,Peshawar Zalmi,Field,Lahore Qalandars,Runs,26,,Salman Mirza,"Match reduced to 13 overs; Lahore qualified, Peshawar eliminated; Babar Azam 100th PSL match"
+PSL2025_30,30,19-May-25,Islamabad United,Karachi Kings,Rawalpindi,Karachi Kings,Field,Islamabad United,Runs,79,,Alex Hales,
+PSL2025_31,Qualifier,21-May-25,Quetta Gladiators,Islamabad United,Lahore,Quetta Gladiators,Bat,Quetta Gladiators,Runs,30,,Faheem Ashraf,Match shifted from Rawalpindi to Lahore
+PSL2025_32,Eliminator 1,22-May-25,Karachi Kings,Lahore Qalandars,Lahore,Karachi Kings,Bat,Lahore Qalandars,Wickets,6,191,Abdullah Shafique,
+PSL2025_33,Eliminator 2,23-May-25,Lahore Qalandars,Islamabad United,Lahore,Lahore Qalandars,Bat,Lahore Qalandars,Runs,95,,Salman Mirza,
+PSL2025_34,Final,25-May-25,Quetta Gladiators,Lahore Qalandars,Lahore,Quetta Gladiators,Bat,Lahore Qalandars,Wickets,6,204,Kusal Perera,Record chase in a PSL final

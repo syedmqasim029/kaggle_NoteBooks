@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSL 2025 Data Analysis Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">🏏 PSL 2025 Analytics</h1>
+                <p class="tagline">Complete Data Analysis & Visualization</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Overview Stats -->
+            <section class="stats-section">
+                <h2 class="section-title">Tournament Overview</h2>
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-value" id="totalMatches">-</div>
+                        <div class="stat-label">Total Matches</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-value" id="totalTeams">-</div>
+                        <div class="stat-label">Teams</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📍</div>
+                        <div class="stat-value" id="totalVenues">-</div>
+                        <div class="stat-label">Venues</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-value" id="winByWickets">-</div>
+                        <div class="stat-label">Wins by Wickets</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏃</div>
+                        <div class="stat-value" id="winByRuns">-</div>
+                        <div class="stat-label">Wins by Runs</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Grid -->
+            <section class="charts-section">
+                <h2 class="section-title">Performance Analytics</h2>
+                
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <h3 class="chart-title">Team Performance</h3>
+                        <div id="teamPerformanceChart" class="chart-container"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card">
+                        <h3 class="chart-title">Win Percentage</h3>
+                        <div id="winPercentageChart" class="chart-container"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3 class="chart-title">Toss Impact</h3>
+                        <div id="tossImpactChart" class="chart-container"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card">
+                        <h3 class="chart-title">Venue Distribution</h3>
+                        <div id="venueStatsChart" class="chart-container"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3 class="chart-title">Win Methods</h3>
+                        <div id="winMethodChart" class="chart-container"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <h3 class="chart-title">Victory Margin Distribution</h3>
+                        <div id="marginDistributionChart" class="chart-container"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card">
+                        <h3 class="chart-title">Top Players (POTM)</h3>
+                        <div id="playerOfMatchChart" class="chart-container"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3 class="chart-title">Toss Decisions</h3>
+                        <div id="tossDecisionChart" class="chart-container"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <h3 class="chart-title">Tournament Timeline</h3>
+                        <div id="matchTimelineChart" class="chart-container"></div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-card full-width">
+                        <h3 class="chart-title">Head-to-Head Analysis</h3>
+                        <div id="headToHeadChart" class="chart-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Matches -->
+            <section class="matches-section">
+                <h2 class="section-title">Recent Matches</h2>
+                <div class="matches-container" id="recentMatches">
+                    <div class="loading">Loading matches...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 PSL Data Analysis Project | Built with Python, Flask, Pandas & Plotly</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
